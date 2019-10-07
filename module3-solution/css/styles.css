@@ -15,7 +15,7 @@ h2.text-center{
 	font-size: 2em;
 }
 div.jumbotron.jumbotron-fluid{
-	margin-top: 25px;
+	margin: 16px;
 	padding: 10px 0;
 	color: #721c24;
     background-color: #f8d7da;
@@ -23,6 +23,8 @@ div.jumbotron.jumbotron-fluid{
 }
 div p{
 	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 li h4{
 	font-size: 1.4em;

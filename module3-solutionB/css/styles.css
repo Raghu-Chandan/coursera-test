@@ -1,40 +1,81 @@
 nav{
-	background-color: #cce5ff;
+    background-color: #cce5ff;
 }
 nav a:link,a:visited{
-	text-decoration: none;
+    text-decoration: none;
 }
 nav a:hover,a:active{
-	color: #007bff;
+    color: #007bff;
 }
 .navbar-brand{
-	font-size: 2.5em;
+    font-size: 2.5em;
 }
 h2.text-center{
-	padding-top: 20px;
-	font-size: 2em;
-}
-div.jumbotron.jumbotron-fluid{
-	margin: 16px;
-	padding: 10px 0;
-	color: #721c24;
-    background-color: #f8d7da;
-    border-color: #f5c6cb; 
-}
-div p{
-	padding-top: 10px;
-	padding-left: 10px;
-	padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 12px;
+    font-size: 2em;
 }
 li h4{
-	font-size: 1.4em;
-	font-weight: normal;
-	color: #856404;
-	padding: 2.5px;
+    font-size: 1.4em;
+    font-weight: normal;
+    color: #856404;
+    padding: 2.5px;
 }
 #nav-list li.text-center{
-	margin: 0px -16px -8px -16px;
-	background-color: #fff3cd;
-	border: 1px solid black;
-	
+    margin: 0px -16px -8px -16px;
+    background-color: #fff3cd;
+    border: 1px solid black;
+    
+}
+.row article h3{
+    padding-top: 8px;
+
+}
+.link{
+    text-align: center;
+    color: black;
+    
+}
+
+#chicken{
+    background-color: #d4edda;
+    color:#155724 ;
+
+}
+#beef{
+    /*For negating the margin given to organizer*/
+
+    background-color: #f8d7da;
+    color: #721c24;
+    
+}
+#sushi{
+    
+    background-color: #e2e3e5;
+    color: #383d41;
+    
+}
+.row article p{
+    margin-bottom: 8px;
+    padding: 2px 8px 0px;
+}
+
+@media (max-width: 575px){
+    #beef,#chicken,#sushi{
+        margin-bottom: 12px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) { 
+    #sushi{
+        /*margin-left: -16px; */
+        margin-top: 8px;
+    }
+
+}
+
+@media (min-width: 768px){
+    #beef,#sushi{
+        /*margin-left: -16px;*/
+    }
 }
